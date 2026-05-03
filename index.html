@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PHREAKERS :: WIRE</title>
+  <link rel="icon" type="image/png" href="/assets/favicon.png" />
+  <meta name="description" content="A research project on the phreaking community, for Culture of the Internet (Spring 2026)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323&family=Space+Mono:wght@400;700&display=swap" />
+  <link rel="stylesheet" href="/css/theme.css" />
+  <style>
+    body::before, body::after { display: none; }
+    body { background: #000; }
+    .landing-hero {
+      position: relative;
+      z-index: 1;
+      min-height: 100vh;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .landing-hero .video-wrap {
+      width: min(90vw, 800px);
+      aspect-ratio: 16 / 9;
+    }
+
+    .landing-hero .video-wrap iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .landing-scroll-hint {
+      position: absolute;
+      bottom: 2rem;
+      font-family: var(--font-display);
+      font-size: 1rem;
+      letter-spacing: 0.3em;
+      color: rgba(255, 255, 255, 0.3);
+      animation: pulse-hint 2.5s ease-in-out infinite;
+    }
+
+    @keyframes pulse-hint {
+      0%, 100% { opacity: 0.25; }
+      50% { opacity: 0.6; }
+    }
+
+    .landing-intro {
+      position: relative;
+      z-index: 1;
+      background: #000;
+      padding: 6rem 1.5rem 8rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    .landing-intro p {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 1.05rem;
+      line-height: 1.8;
+      margin-bottom: 1.5rem;
+    }
+
+    .landing-intro .site-title {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      color: var(--magenta);
+      text-shadow: 0 0 8px rgba(255, 44, 214, 0.7), 3px 3px 0 var(--cyan);
+      letter-spacing: 0.1em;
+      margin-bottom: 0.5rem;
+    }
+
+    .landing-intro .site-subtitle {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      color: var(--yellow);
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      margin-bottom: 3rem;
+    }
+
+    .landing-enter {
+      display: inline-block;
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      letter-spacing: 0.2em;
+      color: var(--cyan);
+      border: 1px solid var(--cyan);
+      padding: 0.8rem 2.5rem;
+      text-decoration: none;
+      margin-top: 2rem;
+      transition: background 150ms, box-shadow 150ms, transform 150ms;
+    }
+
+    .landing-enter:hover {
+      background: rgba(0, 255, 247, 0.1);
+      box-shadow: 0 0 20px rgba(0, 255, 247, 0.4);
+      transform: translate(-2px, -2px);
+      color: var(--cyan);
+      border-color: var(--cyan);
+      border-bottom-color: var(--cyan);
+    }
+  </style>
+</head>
+<body>
+
+  <section class="landing-hero">
+    <div class="video-wrap">
+      <iframe
+        src="https://www.youtube.com/embed/oof0g80YUwM?start=2880"
+        title="Radiolab — Long Distance (the story of Joybubbles)"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div class="landing-scroll-hint">SCROLL</div>
+  </section>
+
+  <section class="landing-intro">
+    <div class="site-title">PHREAKERS</div>
+    <div class="site-subtitle">Leonard H Phelan IV</div>
+    <p>
+      Almost every story I read about phreaking has the same ring to it
+      (no pun intended). More than anything, it's a story of wonder,
+      the story of feeling like you've just gained a superpower, or
+      maybe like you've conquered an infinite labyrinth.
+    </p>
+    <p>
+      In a lot of ways, phreaking feels like the golden age of wonder.
+      And the hackers of today are kind of just chasing that high.
+      My foremost hope in this project is to share some of that wonder.
+    </p>
+    <a class="landing-enter" href="/pages/home.html">ENTER</a>
+  </section>
+
+</body>
+</html>
