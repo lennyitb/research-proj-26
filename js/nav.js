@@ -26,11 +26,15 @@ function renderHeader() {
     <header class="site-header">
       <div class="site-header__inner">
         <a class="site-header__brand" href="/pages/home.html">PHREAKERS<span>::</span>WIRE</a>
+        <button class="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
         <nav class="site-nav" aria-label="Primary">
           <ul>${items}</ul>
         </nav>
       </div>
-    </header>`;
+    </header>
+    <div class="sidebar-overlay" aria-hidden="true"></div>`;
 }
 
 function renderFooter() {
@@ -45,11 +49,36 @@ function renderFooter() {
     </footer>`;
 }
 
+function initSidebar() {
+  const btn = document.querySelector(".hamburger");
+  const nav = document.querySelector(".site-nav");
+  const overlay = document.querySelector(".sidebar-overlay");
+  if (!btn || !nav) return;
+
+  function open() {
+    nav.classList.add("open");
+    overlay.classList.add("open");
+    btn.setAttribute("aria-expanded", "true");
+  }
+
+  function close() {
+    nav.classList.remove("open");
+    overlay.classList.remove("open");
+    btn.setAttribute("aria-expanded", "false");
+  }
+
+  btn.addEventListener("click", () => {
+    nav.classList.contains("open") ? close() : open();
+  });
+  overlay.addEventListener("click", close);
+}
+
 function renderChrome() {
   const headerSlot = document.getElementById("site-header");
   const footerSlot = document.getElementById("site-footer");
   if (headerSlot) headerSlot.outerHTML = renderHeader();
   if (footerSlot) footerSlot.outerHTML = renderFooter();
+  initSidebar();
 }
 
 document.addEventListener("DOMContentLoaded", renderChrome);
