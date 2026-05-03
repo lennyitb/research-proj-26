@@ -1,13 +1,12 @@
-// Shared site chrome — header + footer injection and active-nav highlighting.
-// Each page calls renderChrome() after the body opens.
-
 const NAV_LINKS = [
-  { href: "/pages/home.html",            label: "00 / HOME" },
-  { href: "/pages/phreakers.html",      label: "01 / PHREAKERS" },
-  { href: "/pages/meeting-place.html",  label: "02 / THE WIRES" },
-  { href: "/pages/culture.html",        label: "03 / CULTURE" },
-  { href: "/pages/legacy.html",         label: "04 / LEGACY" },
-  { href: "/pages/personal.html",       label: "05 / PERSONAL" },
+  { href: "/pages/home.html",                label: "00 / HOME" },
+  { href: "/pages/phreakers.html",           label: "01 / PHREAKERS" },
+  { href: "/pages/the-system.html",          label: '02 / "THE SYSTEM"' },
+  { href: "/pages/hiding-in-the-walls.html", label: "03 / HIDING IN THE WALLS" },
+  { href: "/pages/pranking.html",            label: "04 / PRANKING" },
+  { href: "/pages/mainstream-invasion.html", label: "05 / MAINSTREAM INVASION" },
+  { href: "/pages/legacy.html",              label: "06 / FUCK THE POLICE" },
+  { href: "/pages/works-cited.html",         label: "07 / WORKS CITED" },
 ];
 
 function currentPath() {
@@ -41,8 +40,7 @@ function renderFooter() {
         Leonard H Phelan IV &middot; Culture of the Internet &middot; Prof. Russell Mills &middot; Spring 2026
       </p>
       <p>
-        <a href="/pages/personal.html#sources">Sources</a> &middot;
-        <a href="/pages/personal.html#discussion">Class discussion</a>
+        <a href="/pages/works-cited.html">Works Cited</a>
       </p>
     </footer>`;
 }
