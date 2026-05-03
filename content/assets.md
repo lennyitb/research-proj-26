@@ -7,4 +7,4 @@
 - hoffman - https://www.nytimes.com/2017/09/27/opinion/abbie-hoffman-donald-trump.html
 - crossbar - https://magazine.wsu.edu/2013/07/31/from-holland-library-to-hacking-history/2013fall-hacking3/
 - telephone-crime-lab.jpg - Lapsley
-- payphones - https://www.nytimes.com/2022/05/27/arts/pay-phones-nyc-photos.html
+- payphones - https://www.nytimes.com/2022/05/27/arts/pay-phones-nyc-photos.html 
