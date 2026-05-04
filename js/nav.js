@@ -25,7 +25,7 @@ function renderHeader() {
   return `
     <header class="site-header">
       <div class="site-header__inner">
-        <a class="site-header__brand" href="/pages/home.html">PHREAKERS<span>::</span>WIRE</a>
+        <a class="site-header__brand" href="/pages/home.html">PHREAKERS<span>//</span>Leonard H Phelan IV</a>
         <button class="hamburger" aria-label="Open menu" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>

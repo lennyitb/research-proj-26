@@ -50,7 +50,7 @@ hoffman.jpg
 
 ### The Throughline
 
-The people who made phreaking did it because of their curiosity, they were each driven to sneak into and explore the system. People all across the country were each called into this individual persuit. These people didn't go away, and they never stopped popping up anew either. **For a long time the focus and exclusivity of their club was protected by the barrier to entry of their meeting places.** However, eventually the word got out and their hobby was overwhelmingly taken over by the masses. It's hard to imagine this having happened without people like Hoffman.
+The people who made phreaking did it because of their curiosity, they were each driven to sneak into and explore the system. People all across the country were each called into this individual persuit. These people didn't go away, and they never stopped popping up anew either. **For a long time the focus and exclusivity of their club was protected by the barrier to entry of their meeting places.** However, eventually the word got out and their hobby was overwhelmingly taken over by the masses.
 
 ## "The System"
 
