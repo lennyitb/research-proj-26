@@ -130,7 +130,14 @@ body::after {
   transition: color 120ms, border-color 120ms, text-shadow 120ms;
 }
 
-.site-nav a:hover,
+@media (hover: hover) {
+  .site-nav a:hover {
+    color: var(--cyan);
+    border-color: var(--cyan);
+    text-shadow: var(--shadow-cyan);
+  }
+}
+
 .site-nav a[aria-current="page"] {
   color: var(--cyan);
   border-color: var(--cyan);
