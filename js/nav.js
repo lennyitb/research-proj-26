@@ -73,12 +73,61 @@ function initSidebar() {
   overlay.addEventListener("click", close);
 }
 
+function renderPagination() {
+  const here = currentPath();
+  const idx = NAV_LINKS.findIndex(
+    (l) => here.endsWith(l.href.replace(/^\//, ""))
+  );
+  if (idx < 1) return "";
+
+  const prev = NAV_LINKS[idx - 1];
+  const next = NAV_LINKS[idx + 1];
+
+  return `
+    <nav class="page-pagination" aria-label="Page navigation">
+      ${prev ? `<a class="page-pagination__link page-pagination__prev" href="${prev.href}">&larr; ${prev.label}</a>` : '<span></span>'}
+      ${next ? `<a class="page-pagination__link page-pagination__next" href="${next.href}">${next.label} &rarr;</a>` : '<span></span>'}
+    </nav>`;
+}
+
 function renderChrome() {
   const headerSlot = document.getElementById("site-header");
   const footerSlot = document.getElementById("site-footer");
   if (headerSlot) headerSlot.outerHTML = renderHeader();
   if (footerSlot) footerSlot.outerHTML = renderFooter();
+
+  const main = document.querySelector("main");
+  if (main) main.insertAdjacentHTML("beforeend", renderPagination());
+
   initSidebar();
 }
 
-document.addEventListener("DOMContentLoaded", renderChrome);
+function initLightbox() {
+  function close(overlay) {
+    overlay.remove();
+  }
+
+  document.addEventListener("click", (e) => {
+    if (!e.target.classList.contains("zoomable")) return;
+    const overlay = document.createElement("div");
+    overlay.className = "lightbox";
+    const img = document.createElement("img");
+    img.src = e.target.src;
+    img.alt = e.target.alt;
+    overlay.appendChild(img);
+    document.body.appendChild(overlay);
+    overlay.addEventListener("click", () => close(overlay));
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      const lb = document.querySelector(".lightbox");
+      if (lb) close(lb);
+    }
+  });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  renderChrome();
+  initLightbox();
+});
