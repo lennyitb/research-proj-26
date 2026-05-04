@@ -203,6 +203,15 @@ blockquote {
   font-style: italic;
 }
 
+blockquote .attribution {
+  font-style: normal;
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--ink-dim);
+  text-align: right;
+}
+
 code {
   font-family: var(--font-body);
   background: rgba(0, 255, 247, 0.1);

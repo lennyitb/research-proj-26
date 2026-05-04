@@ -5,7 +5,7 @@ const NAV_LINKS = [
   { href: "/pages/hiding-in-the-walls.html", label: "03 / HIDING IN THE WALLS" },
   { href: "/pages/pranking.html",            label: "04 / PRANKING" },
   { href: "/pages/mainstream-invasion.html", label: "05 / MAINSTREAM INVASION" },
-  { href: "/pages/legacy.html",              label: "06 / FUCK THE POLICE" },
+  { href: "/pages/legacy.html",              label: "06 / DO WHAT TO THE POLICE?" },
   { href: "/pages/works-cited.html",         label: "07 / WORKS CITED" },
 ];
 
