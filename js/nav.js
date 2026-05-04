@@ -56,9 +56,11 @@ function initSidebar() {
   if (!btn || !nav) return;
 
   function open() {
+    nav.style.pointerEvents = "none";
     nav.classList.add("open");
     overlay.classList.add("open");
     btn.setAttribute("aria-expanded", "true");
+    setTimeout(() => { nav.style.pointerEvents = ""; }, 300);
   }
 
   function close() {
