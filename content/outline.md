@@ -119,6 +119,8 @@ As phreaking grew from a scattered handful of loners into something closer to a 
 
 Law enforcement had no idea what to do. There was no precedent, no playbook — just a group of people doing things with the telephone network that shouldn't have been possible, and mounting pressure from AT&T to make it stop. So they did what they have always done when confronted with something they don't understand: they treated curiosity as criminal intent and competence as threat.
 
+The front page of the *Wall Street Journal* told the story plainly enough. In January 1976, the paper ran a piece cataloguing the accused: a singer who pleaded guilty in Los Angeles, an actor raided in his apartment and caught holding a blue box, a New York coin dealer who made calls to Israel, Germany, and Switzerland in a single twenty-four-hour period. AT&T's general security manager conceded that the users "probably consider themselves basically honest," then in the same breath called it a combination of greed and the attitude "that it's all right to rip off the phone company" (Jacobs, ["Blue Boxes Spread From Phone Freaks To the Well-Heeled,"](https://historyofphonephreaking.org/docs/jacobs1976.pdf) *Wall Street Journal*).
+
 Consider John Draper. He wiretapped the FBI from a payphone across the country; a kind of amazing feat. Bell engineers were certain this was impossible and for a few days it wasn't taken seriously until they encountered proof he did it a second time. He appeared before the same judge three times for the same crime. By any rational measure, he could have gone to prison for far longer than he did, and what he got was nine months. That is not a harsh sentence. And yet it breaks your heart, because Draper is genuinely not a criminal. He is a tinkerer, an evangelist — a man who discovered that a cereal whistle could command the telephone network and could not stop himself from telling everyone he met. Nine months in a cell for that. The sentence was lenient, but I don't think he should have gone to jail at all (Fager, ["Captain Crunch: The Unique Phreak"](https://thephoenix.com/boston/news/22802-captain-crunch-the-unique-phreak/)).
 
 Kevin Mitnick's story is worse. The most famous hacker in American history was held without bail after his 1995 arrest, in part because a federal prosecutor convinced a judge that Mitnick could "whistle into a phone and launch nuclear missiles." This was not possible. It was not close to possible. It was a fantasy constructed from fear and technical illiteracy, and a judge accepted it as grounds to deny bail. Mitnick spent years in detention, including time in solitary confinement (Glance, ["Kevin Mitnick's Story Shows Why We Shouldn't Use Jail to Make Examples of Hackers"](https://theconversation.com/kevin-mitnicks-story-shows-why-we-shouldnt-use-jail-to-make-examples-of-hackers-41038)). The treatment was so egregious it provoked the founding of the Electronic Frontier Foundation — an institutional civil liberties response from mainstream figures who recognized that the government was criminalizing activities it simply did not understand.
@@ -145,6 +147,8 @@ Fager, Chuck. "Captain Crunch: The Unique Phreak." *The Boston Phoenix*, 11 July
 
 Glance, David. "Kevin Mitnick's Story Shows Why We Shouldn't Use Jail to Make Examples of Hackers." *The Conversation*, 5 May 2015, theconversation.com/kevin-mitnicks-story-shows-why-we-shouldnt-use-jail-to-make-examples-of-hackers-41038.
 
+Jacobs, Sanford L. "Blue Boxes Spread From Phone Freaks To the Well-Heeled." *Wall Street Journal*, 29 Jan. 1976, p. 1.
+
 Kodiak. "An Appeal to All." *textfiles.com*, www.textfiles.com/phreak/PHREAKING/appeal1.
 
 Lapsley, Phil. *Exploding the Phone: The Untold Story of the Teenagers and Outlaws Who Hacked Ma Bell*. Grove Press, 2013.
@@ -158,3 +162,7 @@ Rosenbaum, Ron. "Secrets of the Little Blue Box." *Esquire*, Oct. 1971.
 United States, Federal Bureau of Investigation. *Youth International Party Line (YIPL)*. FBI file.
 
 Wozniak, Steve. "Playful Pranks from Apple's Founder." Interview by Robert Krulwich. *NPR*, 3 Jan. 2009, www.npr.org/2009/01/03/98977379/playful-pranks-from-apples-founder.
+
+If you haven't noticed, Phil Lapsley is the definitive source on this subject matter. I don't believe I've managed to find a source that he has not in some way touched. If you're at all interested in this topic, it would be foolish not to visit his website, explodingthephone.com, and read his book.
+
+Borrow my copy of the book
