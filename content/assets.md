@@ -8,3 +8,4 @@
 - crossbar - https://magazine.wsu.edu/2013/07/31/from-holland-library-to-hacking-history/2013fall-hacking3/
 - telephone-crime-lab.jpg - Lapsley
 - payphones - https://www.nytimes.com/2022/05/27/arts/pay-phones-nyc-photos.html 
+- woz - https://woz-u.com/blog/34-years-after-apple-the-woz-is-more-prolific-than-ever/

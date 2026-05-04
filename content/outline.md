@@ -24,6 +24,8 @@ While phreaking culture is more omnipresent than almost any other community of i
 
 Wozniak's way in was the most methodical. He read Ron Rosenbaum's 1971 *Esquire* article, ["Secrets of the Little Blue Box,"](documents/rosenbaum1971.pdf) then went to the Stanford Linear Accelerator Center library to pull AT&T technical manuals and figure out the exact frequencies. He built a digital blue box — more precise than the analog ones others were using. And he explored the system with engineering patience: when he found a dead exchange in the phone book, he'd dial all 10,000 numbers in sequence to see what was hiding in there. His curiosity was systematic where Joybubbles' was instinctive. The famous line is that without the blue boxes, there would have been no Apple — the experience of building something small that could command something enormous shaped everything that came after.
 
+woz.jpg
+
 ### Joybubbles
 
 Joe Engressia, blind from birth, perfect pitch. Discovered as a kid that whistling certain tones into the phone made things happen — the system responded to his voice. His way in was purely physical and intuitive; he didn't need a schematic or a device, just his ears and his mouth. He could hear the network's control language and speak it back. He spent years mapping the system by sound, calling numbers and listening to what came back. Later legally changed his name to Joybubbles and declared himself a perpetual five-year-old (Marsh, ["The Legend of Joybubbles,"](https://mspmag.com/arts-and-culture/the-legend-of-joybubbles/) *Mpls.St.Paul Magazine*). His approach to phreaking was almost childlike in the literal sense — pure curiosity with no agenda beyond wanting to know what was on the other end of every sound.
